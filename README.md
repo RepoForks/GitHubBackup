@@ -12,3 +12,8 @@ curl -u $USERNAME:$PASSWORD https://api.github.com/user/repos |
 grep 'full_name' | grep $USERNAME | sed 's/.*"full_name": "//' | sed 's/",//' |
 while IFS= read -r LINE; do git clone https://github.com/$LINE; done
 ```
+
+### Coming soon
+
+- Better implementation (one big regex if possible)
+- Incremental updates
