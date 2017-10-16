@@ -1,5 +1,7 @@
 # GitHub Backup
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 Small script to automatically backup all your GitHub repos in once thanks to [GitHub APIs](https://developer.github.com/v3/repos/).
 
 ```bash
