@@ -2,7 +2,9 @@
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
-Small script to automatically backup all your GitHub repos at once thanks to [GitHub APIs](https://developer.github.com/v3/repos/) and pipes. Now with **incremental updates**: if the repo has been cloned previously it sends a `pull origin` request, otherwise a `clone` request.
+Small script to automatically backup all your GitHub repos at once thanks to [GitHub APIs](https://developer.github.com/v3/repos/) and pipes.
+
+Now with **incremental updates**: if the repo has been cloned previously a `pull origin` request is sent, otherwise a `clone` request.
 
 ```bash
 USERNAME='your_github_username'
